@@ -1,11 +1,11 @@
-About r-hgnchelper
-==================
+About r-hgnchelper-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hgnchelper-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/waldronlab/HGNChelper
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hgnchelper-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains functions for identifying and correcting HGNC human gene symbols and MGI mouse gene symbols which have been converted to date format by Excel, withdrawn, or aliased. Also contains functions for reversibly converting between HGNC symbols and valid R names.
 
