@@ -1,4 +1,4 @@
-{% set version = "0.8.15" %}
+{% set version = "0.8.16" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HGNChelper_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HGNChelper/HGNChelper_{{ version }}.tar.gz
-  sha256: 76f8a15bc2d7d70059d0fabdd51e92c917c9a238e7d3ba6cb7ebbb66fd467518
+  sha256: 91d4c90bf54b4b49a4aaf58cbef3f23eae7c5e93c6b19f48e986495d9a8a93e9
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
